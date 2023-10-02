@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black_back"
     tools:context=".MainActivity" >
 
     <LinearLayout
@@ -16,9 +15,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/name_app"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
             
         </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
 
     </LinearLayout>
 
